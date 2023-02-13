@@ -1,0 +1,20 @@
+.weather {
+  @apply flex flex-col items-center h-screen;
+
+  &__title {
+    @apply text-2xl my-4 text-blue-500;
+  }
+
+  &__form {
+    /* @apply m-auto; */
+  }
+}
+
+.weather_form {
+  &__input {
+    @apply rounded-l-md m-auto;
+  }
+  &__btn {
+    @apply btn rounded-r-md;
+  }
+}

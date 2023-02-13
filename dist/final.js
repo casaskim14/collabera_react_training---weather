@@ -1,0 +1,1 @@
+(()=>{"use strict";console.log(class{constructor(s){this.value=s}}(3,2))})();
